@@ -2,3 +2,7 @@ lex Backpatching.l
 yacc -d Backpatching.y
 gcc lex.yy.c y.tab.c -ll
 ./a.out
+
+sample input: 
+  if(a<b){ a=b;}
+  else{b=a;}

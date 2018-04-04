@@ -1,0 +1,10 @@
+lex label_trees.l
+yacc label_trees.y
+gcc lex.yy.c y.tab.c -ll
+./a.out
+
+works only for addition, subtraction, multiplication and division 
+
+sample input:
+	a=a+b*c
+	a=a+b

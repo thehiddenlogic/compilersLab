@@ -1,0 +1,4 @@
+lex Syntax_tree.l
+yacc -d Syntax_tree.y
+gcc lex.yy.c y.tab.c -ll
+./a.out < Syntax_tree.txt

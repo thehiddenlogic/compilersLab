@@ -1,0 +1,4 @@
+lex Symbol_Table.l
+yacc -d Symbol_Table.y
+g++ lex.yy.c y.tab.c -ll
+./a.out < Symbol_Table.txt

@@ -1,0 +1,5 @@
+while(i<5){}
+do{
+b=7;
+}while(a<=7);
+for(i=1;j<5;k++){}

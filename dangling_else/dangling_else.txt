@@ -1,0 +1,3 @@
+if(a<b) {a=b;}
+else {b=a;}
+if(a==c) {a=b;}

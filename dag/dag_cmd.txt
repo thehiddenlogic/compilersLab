@@ -1,0 +1,4 @@
+lex dag.l
+yacc -d dag.y
+g++ lex.yy.c y.tab.c -ll
+./a.out < dag1.txt

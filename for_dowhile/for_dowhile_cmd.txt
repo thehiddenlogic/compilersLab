@@ -1,0 +1,4 @@
+lex for_dowhile.l
+yacc -d for_dowhile.y
+gcc lex.yy.c y.tab.c -ll
+./a.out < for_dowhile.txt

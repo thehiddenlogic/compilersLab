@@ -1,0 +1,4 @@
+lex Backpatching.l
+yacc -d Backpatching.y
+gcc lex.yy.c y.tab.c -ll
+./a.out

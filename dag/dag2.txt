@@ -1,0 +1,8 @@
+{
+	int a[10], b, c, d, i;
+	a[i] = b+c;
+	c = a[i];
+	a[i] = d;
+	b = a;
+	d = b+c;
+}

@@ -1,0 +1,4 @@
+lex copy_constant.l
+yacc -d copy_constant.y
+g++ lex.yy.c y.tab.c -ll
+./a.out < in1.txt

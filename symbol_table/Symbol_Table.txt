@@ -1,0 +1,5 @@
+{int a;
+{int b,c;float e;}
+{int b,c;float e;
+double c;}
+float d;}

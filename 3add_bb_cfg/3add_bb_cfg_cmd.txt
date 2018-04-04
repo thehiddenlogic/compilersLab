@@ -1,0 +1,4 @@
+lex 3add_bb_cfg.l
+yacc -d 3add_bb_cfg.y
+gcc lex.yy.c y.tab.c -ll
+./a.out < while_loop.txt

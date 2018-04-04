@@ -1,0 +1,4 @@
+lex dangling_else.l
+yacc -d dangling_else.y
+gcc lex.yy.c y.tab.c -ll
+./a.out < dangling_else.txt
